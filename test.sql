@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS "set";
+CREATE TABLE "set" ("id" INTEGER PRIMARY KEY  NOT NULL , "dop" BOOL);
+INSERT INTO "set" VALUES(1,'true');
+INSERT INTO "set" VALUES(2,'true');
+INSERT INTO "set" VALUES(3,'false');
+DROP TABLE IF EXISTS "tes";
+CREATE TABLE "tes" ("id" INTEGER PRIMARY KEY  NOT NULL , "names" TEXT check(typeof("names") = 'text') );
+INSERT INTO "tes" VALUES(1,'we');
+INSERT INTO "tes" VALUES(2,'33ee3');
+INSERT INTO "tes" VALUES(3,'ewdfv');
